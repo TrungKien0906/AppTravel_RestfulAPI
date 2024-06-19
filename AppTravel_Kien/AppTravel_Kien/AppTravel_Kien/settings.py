@@ -107,11 +107,10 @@ cloudinary.config(
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'apptravel_database',
+        'NAME': 'travelapp_db',
         'USER': 'root',
         'PASSWORD': '123456',
-        'HOST': 'localhost',  # Or the IP address/hostname of your MySQL server
-        'PORT': '',  # If using the default port (3306), leave this empty
+        'HOST': ''
     }
 }
 
