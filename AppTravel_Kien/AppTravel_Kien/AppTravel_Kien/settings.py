@@ -107,7 +107,7 @@ cloudinary.config(
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'travelapp_db',
+        'NAME': 'apptravel_database',
         'USER': 'root',
         'PASSWORD': '123456',
         'HOST': ''
