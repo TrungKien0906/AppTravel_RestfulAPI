@@ -83,12 +83,7 @@ REST_FRAMEWORK = {
     )
 }
 
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
-    }
-}
+
 CLIENT_ID = 'RqoCvfbt5T0Z8b0bIK47VIZ5WfNgQy1z'
 CLIENT_SECRET = 'kimOHgaoGHOhYgJxkyfXKHnWKs9Wdp01ir5vSxM78wKpo_-AwwC2eBcL6kwoEgjF'
 
